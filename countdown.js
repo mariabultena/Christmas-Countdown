@@ -1,4 +1,4 @@
-window.onload = function(){
+/*window.onload = function(){
 	var canvas = document.getElementById('sky');
 	var ctx = canvas.getContext("2d");
 	var W = window.innerWidth;
@@ -43,7 +43,7 @@ window.onload = function(){
 		}
 	}
 	setInterval(drawFlakes, 25);
-}
+}*/
 var countdown = function(end, elements, callback) {
 	var _second = 1000,
 		_minute = _second * 60,
